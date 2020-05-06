@@ -171,6 +171,7 @@ a:active { color: #FFFFFF; }
 	height:40px;
 	display:inline-flex;
 	align-items:center;
+	float:right;
 }
 
 .menu ul li{
