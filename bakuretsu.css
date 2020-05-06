@@ -147,7 +147,7 @@ a:active { color: #FFFFFF; }
 
 #top{
 	background-image:url(logo.jpg);
-	background-size:90%;
+	background-size:cover;
 	background-position:center;
 	position:fixed;
 	width:100%;
