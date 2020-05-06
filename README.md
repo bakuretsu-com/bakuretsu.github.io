@@ -1,0 +1,1 @@
+# bakuretsu.github.io
