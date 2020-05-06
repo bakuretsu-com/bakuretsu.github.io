@@ -167,16 +167,15 @@ a:active { color: #FFFFFF; }
 }
 
 .menu ul{
-	width:100%;	
+	width:90%;	
 	height:40px;
-	display:flex;
-	justify-content:space-around;
+	display:inline-flex;
 	align-items:center;
 }
 
 .menu ul li{
 	text-align:center;
-	width:30%;
+	width:25%;
 	justify-content:center;
 	font-family:impact;
 }
