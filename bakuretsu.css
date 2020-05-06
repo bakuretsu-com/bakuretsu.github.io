@@ -5,6 +5,10 @@ header{
 	position:fixed;
 	z-index:501;
 	}
+body{
+	font-family: "impact","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック","Osaka", sans-serif;
+}
+
 
 #nav-content{
 	text-align:center;	
@@ -169,14 +173,14 @@ a:active { color: #FFFFFF; }
 .menu ul{
 	width:90%;	
 	height:40px;
-	display:inline-flex;
-	align-items:center;
+	display:flex;
 	float:right;
+	align-items:center;
 }
 
 .menu ul li{
 	text-align:center;
-	width:25%;
+	width:30%;
 	justify-content:center;
 	font-family:impact;
 }
@@ -403,6 +407,53 @@ a:active { color: #FFFFFF; }
 	color:#00ff7f;	
 	transition:.5s;
 }
+
+@media(max-width:670px){
+	#content{
+	margin-top:300px;
+		}
+	#top{
+	height:300px;
+}
+	.material {
+	height:200px;
+	margin-bottom:50px;
+}
+	.sentence{
+	height:200px;
+}
+	.piyoshima-bg{
+	height:200px;
+}
+	.maasais-bg{
+	height:200px;
+}
+	.Refood-bg{
+	height:200px;
+}
+
+
+	.sushifuku-bg{
+	height:200px;
+}
+	.book-bg{
+	height:200px;
+}
+	.shirai-farm-bg{
+	height:200px;
+}
+
+
+	.sentence p{
+	height:200px;
+	position:relative;
+	line-height:200px;
+	font-size:30px;
+
+}
+	.sentence a{
+}
+
 
 }
 
